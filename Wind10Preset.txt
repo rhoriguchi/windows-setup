@@ -1,0 +1,128 @@
+### Privacy Settings ###
+DisableTelemetry
+DisableWiFiSense
+EnableSmartScreen
+DisableWebSearch
+# EnableBackgroundApps / DisableBackgroundApps
+DisableAppSuggestions
+DisableLockScreenSpotlight
+DisableLocationTracking
+DisableMapUpdates
+DisableFeedback
+EnableAdvertisingID
+DisableCortana
+DisableErrorReporting
+SetP2PUpdateLocal
+# EnableAutoLogger / DisableAutoLogger
+DisableDiagTrack
+EnableWAPPush
+
+### Service Tweaks ###
+# SetUACLow / SetUACHigh
+EnableSharingMappedDrives
+DisableAdminShares
+DisableSMB1
+# SetCurrentNetworkPrivate / SetCurrentNetworkPublic
+# SetUnknownNetworksPrivate / SetUnknownNetworksPublic
+# DisableNetDevicesAutoInst / EnableNetDevicesAutoInst
+# EnableControlledFolderAccess / DisableCtrldFolderAccess
+EnableFirewall
+EnableFirewall
+# DisableDefenderCloud / EnableDefenderCloud
+# DisableUpdateMSRT / EnableUpdateMSRT
+EnableUpdateDriver
+DisableUpdateRestart
+DisableHomeGroups
+DisableSharedExperiences
+DisableRemoteAssistance
+DisableRemoteDesktop
+DisableAutoplay
+DisableAutorun
+DisableStorageSense
+DisableDefragmentation
+EnableSuperfetch
+EnableIndexing
+# SetBIOSTimeUTC / SetBIOSTimeLocal
+EnableHibernation
+EnableSleepButton
+# DisableSleepTimeout / EnableSleepTimeout
+DisableFastStartup
+
+### UI Tweaks ###
+EnableActionCenter
+EnableLockScreen
+# EnableLockScreenRS1
+HideNetworkFromLockScreen
+ShowShutdownOnLockScreen
+DisableStickyKeys
+ShowTaskManagerDetails
+ShowFileOperationsDetails
+DisableFileDeleteConfirm
+HideTaskbarSearchBox
+HideTaskView
+ShowLargeTaskbarIcons
+HideTaskbarTitles
+HideTaskbarPeopleIcon
+HideTrayIcons
+ShowKnownExtensions
+ShowHiddenFiles
+ShowSyncProviderNotifications
+ShowRecentShortcuts
+SetExplorerQuickAccess
+HideThisPCFromDesktop
+HideUserFolderFromDesktop
+HideDesktopFromThisPC
+ShowDesktopInExplorer
+HideDocumentsFromThisPC
+ShowDocumentsInExplorer
+ShowDocumentsInExplorer
+ShowDownloadsInExplorer
+HideMusicFromThisPC
+HideMusicFromExplorer
+HidePicturesFromThisPC
+ShowPicturesFromExplorer
+HideVideosFromThisPC
+ShowVideosInExplorer
+Hide3DObjectsFromThisPC
+Hide3DObjectsFromExplorer
+# SetControlPanelViewIcons / SetControlPanelViewCategories
+SetVisualFXAppearance
+EnableThumbnails
+DisableThumbsDB
+# AddENKeyboard / RemoveENKeyboard
+# EnableNumlock / DisableNumlock
+
+### Application Tweaks ###
+DisableOneDrive
+UninstallOneDrive
+UninstallMsftBloat
+UninstallThirdPartyBloat
+# UninstallWindowsStore / InstallWindowsStore
+DisableXboxFeatures
+DisableAdobeFlash
+# UninstallMediaPlayer / InstallMediaPlayer
+UninstallWorkFolders
+InstallLinuxSubsystem
+# InstallHyperV / UninstallHyperV
+# SetPhotoViewerAssociation / UnsetPhotoViewerAssociation
+# AddPhotoViewerOpenWith / RemovePhotoViewerOpenWith
+DisableSearchAppInStore
+EnableNewAppPrompt
+EnableF8BootMenu
+SetDEPOptOut
+# EnableMeltdownCompatFlag / DisableMeltdownCompatFlag
+
+### Server Specific Tweaks ###
+# HideServerManagerOnLogin / ShowServerManagerOnLogin
+# DisableShutdownTracker / EnableShutdownTracker
+# DisablePasswordPolicy / EnablePasswordPolicy
+# DisableCtrlAltDelLogin EnableCtrlAltDelLogin
+# DisableIEEnhancedSecurity / EnableIEEnhancedSecurity
+
+### Unpinning ###
+# UnpinStartMenuTiles
+# UnpinTaskbarIcons
+
+### Auxiliary Functions ###
+"WaitForKey",
+"Restart"
