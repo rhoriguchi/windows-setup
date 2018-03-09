@@ -3,6 +3,7 @@ choco install allway-sync
 choco install atom
 choco install audacity
 choco install battle.net
+choco install adexplorer
 choco install ccleaner
 choco install etcher
 choco install driverbooster
@@ -28,6 +29,7 @@ choco install megasync
 choco install mp3tag
 choco install notepadplusplus
 choco install notepadplusplus.install
+choco install openhardwaremonitor
 choco install pia
 choco install postman
 choco install putty
