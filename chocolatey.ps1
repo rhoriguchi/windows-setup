@@ -1,4 +1,3 @@
-choco install 7zip
 choco install allway-sync
 choco install atom
 choco install audacity
@@ -26,8 +25,6 @@ choco install logitech-options
 choco install malwarebytes
 choco install maven
 choco install megasync
-choco install mp3tag
-choco install notepadplusplus
 choco install notepadplusplus.install
 choco install openhardwaremonitor
 choco install pia
@@ -38,7 +35,6 @@ choco install python
 choco install resilio-sync-home
 choco install spotify
 choco install steam
-choco install teamspeak
 choco install teamviewer
 choco install telegram
 choco install transmission
@@ -46,5 +42,4 @@ choco install vivaldi
 choco install vlc
 choco install whatsapp
 choco install windirstat
-choco install winrar
 choco install wireshark
