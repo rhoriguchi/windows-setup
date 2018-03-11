@@ -27,7 +27,6 @@ DisableSMB1
 # DisableNetDevicesAutoInst / EnableNetDevicesAutoInst
 # EnableControlledFolderAccess / DisableCtrldFolderAccess
 EnableFirewall
-EnableFirewall
 # DisableDefenderCloud / EnableDefenderCloud
 # DisableUpdateMSRT / EnableUpdateMSRT
 EnableUpdateDriver
