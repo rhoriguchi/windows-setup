@@ -22,6 +22,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
   - Affinity
     - Designer
     - Photo
+  - Battle.net
   - Evolve
   - League of Legends
   - MALClient
