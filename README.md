@@ -1,7 +1,7 @@
 # Windows setup guide
 
 ## Win10
-Run .\Win10\_run.bat
+Run .\Win10\_run.bat as administrator
 
 ## Chocolatey
 Install software
