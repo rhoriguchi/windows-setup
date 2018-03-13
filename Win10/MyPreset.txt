@@ -65,7 +65,7 @@ HideTaskbarPeopleIcon
 HideTrayIcons
 ShowKnownExtensions
 ShowHiddenFiles
-ShowSyncProviderNotifications
+ShowSyncNotifications
 ShowRecentShortcuts
 SetExplorerQuickAccess
 HideThisPCFromDesktop
@@ -79,7 +79,7 @@ ShowDownloadsInExplorer
 HideMusicFromThisPC
 HideMusicFromExplorer
 HidePicturesFromThisPC
-ShowPicturesFromExplorer
+ShowPicturesInExplorer
 HideVideosFromThisPC
 ShowVideosInExplorer
 Hide3DObjectsFromThisPC
@@ -92,7 +92,6 @@ DisableThumbsDB
 # EnableNumlock / DisableNumlock
 
 ### Application Tweaks ###
-DisableOneDrive
 UninstallOneDrive
 UninstallMsftBloat
 UninstallThirdPartyBloat
@@ -123,5 +122,5 @@ SetDEPOptOut
 # UnpinTaskbarIcons
 
 ### Auxiliary Functions ###
-"WaitForKey",
+"WaitForKey"
 "Restart"
