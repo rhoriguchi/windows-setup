@@ -1,9 +1,7 @@
 # Windows setup guide
 
 ## Win10
-```
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File Win10.ps1 -preset Win10Preset.txt
-```
+Run .\Win10\_run.bat
 
 ## Chocolatey
 Install software
