@@ -4,16 +4,21 @@
 Run `.\Win10\_run.bat` as administrator
 
 ## Chocolatey
+
 ### Install software
-Run on Powershell
+Run on PowerShell as administrator
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco feature enable -n allowGlobalConfirmation
+choco feature disable -n checksumFiles
 ```
-Run `.\Chocolatey\InstalledSoftware.ps1` as administrator
+Run `.\Chocolatey.bat` as administrator
 
 ### Export installed software
+Run on PowerShell as administrator
 ```
-choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install " + $_ + " -y" } | Out-File .\Chocolatey\InstalledSoftware.ps1
+choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install " + $_ + " -y" } | Out-File .\Chocolatey.bat
 ```
 
 ## Manual installation
