@@ -29,12 +29,12 @@ choco install postman
 choco install putty.install
 choco install pycharm
 choco install python
+choco install qbittorrent
 choco install resilio-sync-home
 choco install spotify
 choco install steam
 choco install teamviewer
 choco install telegram.install
-choco install transmission
 choco install vivaldi
 choco install vlc
 choco install whatsapp
