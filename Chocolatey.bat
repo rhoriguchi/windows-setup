@@ -33,6 +33,7 @@ choco install qbittorrent
 choco install resilio-sync-home
 choco install spotify
 choco install steam
+choco install synergy
 choco install teamviewer
 choco install telegram.install
 choco install vivaldi
