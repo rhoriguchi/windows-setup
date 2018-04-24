@@ -16,7 +16,6 @@ choco install hearthstone-deck-tracker
 choco install hearthstone-deck-tracker-arena-helper
 choco install inkscape
 choco install intellijidea-ultimate
-choco install jdownloader
 choco install jre8
 choco install logitech-options
 choco install malwarebytes
