@@ -1,6 +1,7 @@
 choco install allway-sync
 choco install atom
 choco install ccleaner
+choco install cheatengine
 choco install driverbooster
 choco install fileshredder
 choco install firefox
