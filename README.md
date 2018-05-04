@@ -27,6 +27,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
     - Photo
   - Battle.net
   - Evolve
+  - Hyper
   - IObit Uninstaller
   - JDownloader
   - League of Legends
