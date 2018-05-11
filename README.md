@@ -18,7 +18,7 @@ Run `.\Chocolatey.bat` as administrator
 ### Export installed software
 Run on PowerShell as administrator
 ```
-choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install " + $_ + " -y" } | Out-File .\Chocolatey.bat
+choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install " + $_ } | Out-File .\Chocolatey.bat
 ```
 
 ## Manual installation
