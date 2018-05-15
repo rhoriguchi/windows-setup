@@ -55,4 +55,5 @@ choco install vivaldi
 choco install vlc
 choco install WhatsApp
 choco install windirstat
+choco install winrar
 choco install wireshark
