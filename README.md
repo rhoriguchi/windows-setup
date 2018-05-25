@@ -22,16 +22,17 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 ```
 
 ## Manual installation
-  - Affinity
-    - Designer
-    - Photo
-  - Battle.net
-  - Evolve
-  - Hyper
-  - IObit Uninstaller
-  - JDownloader
-  - League of Legends
-  - MALClient
-  - Microsoft Office
-  - Synergy 
-  - Veeam Agent for Microsoft Windows
+- Affinity
+  - Designer
+  - Photo
+- Battle.net
+- Evolve
+- Hyper
+- IObit Uninstaller
+- JDownloader
+- League of Legends
+- MALClient
+- Microsoft Office
+- Razer Synapse
+- Synergy
+- Veeam Agent for Microsoft Windows
