@@ -27,6 +27,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Battle.net
 - Evolve
 - IObit Uninstaller
+- JDownloader
 - League of Legends
 - MALClient
 - Microsoft Office
