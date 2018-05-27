@@ -32,3 +32,4 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - MALClient
 - Microsoft Office
 - Razer Synapse
+- Synergy
