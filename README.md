@@ -11,7 +11,6 @@ Run on PowerShell as administrator
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco feature enable -n allowGlobalConfirmation
-choco feature disable -n checksumFiles
 ```
 Run `.\Chocolatey.bat` as administrator
 
