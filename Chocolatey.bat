@@ -26,7 +26,6 @@ choco install hyper
 choco install InkScape
 choco install intellijidea-ultimate
 choco install jdk8
-choco install jdownloader
 choco install jre8
 choco install KB2919355
 choco install KB2919442
