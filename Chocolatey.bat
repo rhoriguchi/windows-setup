@@ -61,8 +61,6 @@ choco install veeam-agent
 choco install vivaldi
 choco install vlc
 choco install WhatsApp
-choco install win32diskimager
-choco install win32diskimager.install
 choco install windirstat
 choco install WinPcap
 choco install winrar
