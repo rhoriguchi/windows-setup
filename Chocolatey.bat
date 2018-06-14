@@ -44,7 +44,7 @@ choco install pip
 choco install postman
 choco install putty.install
 choco install pycharm
-choco install python
+choco install python2
 choco install python3
 choco install qbittorrent
 choco install resilio-sync-home
