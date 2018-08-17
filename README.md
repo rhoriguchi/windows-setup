@@ -34,3 +34,4 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Razer Synapse
 - Spotify
 - Synergy
+- Visual Studio Code
