@@ -40,6 +40,8 @@ choco install malwarebytes
 choco install maven
 choco install megasync
 choco install mp3tag
+choco install nodejs
+choco install nodejs.install
 choco install notepadplusplus.install
 choco install openhardwaremonitor
 choco install pia
