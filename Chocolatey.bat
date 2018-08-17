@@ -54,6 +54,7 @@ choco install python2
 choco install python3
 choco install qbittorrent
 choco install resilio-sync-home
+choco install scriptcs
 choco install skype
 choco install steam
 choco install teamviewer
