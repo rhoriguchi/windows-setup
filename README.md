@@ -22,15 +22,15 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 
 ## Manual installation
 - Affinity
-  - Designer
-  - Photo
 - Battle.net
-- Evolve
+- Designer
 - IObit Uninstaller
 - JDownloader
 - League of Legends
 - MALClient
 - Microsoft Office
+- Photo
+- Player.me
 - Razer Synapse
 - Spotify
 - Synergy
