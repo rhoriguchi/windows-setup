@@ -80,7 +80,6 @@ Run `.\Win10\_run.bat` as administrator
 - Telegram
 - Tor Browser
 - Veeam Agent for Microsoft Windows
-- Visual Studio Code
 - Vivaldi
 - VLC media player
 - WhatsApp
