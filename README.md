@@ -3,35 +3,87 @@
 ## Win10
 Run `.\Win10\_run.bat` as administrator
 
-## Chocolatey
+## Programmes
 
-### Install software
-Run on PowerShell as administrator
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
-choco feature enable -n allowGlobalConfirmation
-```
-Run `.\Chocolatey.bat` as administrator
-
-### Export installed software
-Run on PowerShell as administrator
-```
-choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install " + $_ } | Out-File .\Chocolatey.bat
-```
-
-## Manual installation
+- .NET Core
+- Allway Sync
 - Affinity
+  - Designer
+  - Photo
+- Apache
+  - Maven
+  - Tomcat
+- Atom
 - Battle.net
-- Designer
+  - Hearthstone
+  - Overwatch
+- CCleaner
+- Cheat Engine
+- Driver Booster
+- File Shredder
+- Firefox
+- Foxit Reader
+- GeForce Experience
+- GIMP
+- Git
+- GitKraken
+- Google Chrome
+- HandBrake
+- Hearthstone Deck Tracker
+- Hyper.js
+- Inkscape
 - IObit Uninstaller
+- Java JDK 11
 - JDownloader
+- JetBrains
+  - Intellij Ultimate
+  - PyCharm
+  - WebStorm
 - League of Legends
+- League of Legends
+- Logitech Options
 - MALClient
+- Malwarebytes
+- MEGASync
 - Microsoft Office
-- Photo
+- Mp3tag
+- Node.js
+- Notepad++
+- Open Hardware Monitor
 - Player.me
-- Razer Synapse
+- Postman
+- Private Internet Access
+- PuTTY
+- Python 3
+- qBittorrent
+- Razer
+  - Cortex
+  - Surround
+  - Synapse
+- Resilio Sync
+- Skype
 - Spotify
+- Steam
+  - Chaos Reborn
+  - Doki Doki Literature Club!
+  - Dungeon of the Endless
+  - FTL: Faster Than Light
+  - Middle-earth: Shadow of Mordor
+  - Shadowverse
+  - Slay the Spire
+  - Swords & Soldiers
+  - The Binding of Isaac: Rebirth
+  - XCOM 2
 - Synergy
+- TeamViewer
+- Telegram
+- Tor Browser
+- Veeam Agent for Microsoft Windows
 - Visual Studio Code
+- Vivaldi
+- VLC media player
+- WhatsApp
+- WinDirStat
+- WinPcap
+- WinRAR
+- Wireshark
