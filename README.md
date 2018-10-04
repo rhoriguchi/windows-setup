@@ -19,6 +19,7 @@ Run `.\Win10\_run.bat` as administrator
   - Overwatch
 - CCleaner
 - Cheat Engine
+- Discord
 - Driver Booster
 - File Shredder
 - Firefox
