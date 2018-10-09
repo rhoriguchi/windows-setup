@@ -6,6 +6,7 @@ Run `.\Win10\_run.bat` as administrator
 ## Programmes
 
 - .NET Core
+- Acronis True Image 2019
 - Allway Sync
 - Affinity
   - Designer
