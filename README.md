@@ -44,7 +44,6 @@ Run `.\Win10\_run.bat` as administrator
 - League of Legends
 - League of Legends
 - Logitech Options
-- MALClient
 - Malwarebytes
 - MEGASync
 - Microsoft Office
@@ -88,3 +87,7 @@ Run `.\Win10\_run.bat` as administrator
 - WinPcap
 - WinRAR
 - Wireshark
+
+## Microsoft Store
+- MALClient
+- Your Phone
