@@ -18,7 +18,6 @@ Run `.\Win10\_run.bat` as administrator
 - Battle.net
   - Hearthstone
   - Overwatch
-- CCleaner
 - Cheat Engine
 - Discord
 - Driver Booster
