@@ -48,7 +48,6 @@ Run `.\Win10\_run.bat` as administrator
 - Mp3tag
 - Node.js
 - Notepad++
-- Open Hardware Monitor
 - Player.me
 - Postman
 - Private Internet Access
@@ -77,7 +76,6 @@ Run `.\Win10\_run.bat` as administrator
 - TeamViewer
 - Telegram
 - Tor Browser
-- Veeam Agent for Microsoft Windows
 - Vivaldi
 - VLC media player
 - WhatsApp
