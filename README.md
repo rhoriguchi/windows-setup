@@ -42,7 +42,6 @@ Run `.\Win10\_run.bat` as administrator
   - PyCharm
   - WebStorm
 - League of Legends
-- League of Legends
 - Logitech Options
 - Malwarebytes
 - MEGASync
