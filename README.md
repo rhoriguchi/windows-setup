@@ -22,6 +22,7 @@ Run `.\Win10\_run.bat` as administrator
 - Discord
 - Driver Booster
 - File Shredder
+- FileZilla
 - Firefox
 - Foxit Reader
 - GeForce Experience
