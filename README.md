@@ -20,10 +20,10 @@ Run `.\Win10\_run.bat` as administrator
 - Battle.net
   - Hearthstone
   - Overwatch
+- balenaEtcher
 - Cheat Engine
 - Discord
 - Driver Booster
-- Etcher
 - File Shredder
 - FileZilla
 - Firefox
