@@ -15,18 +15,20 @@ Run `.\Win10\_run.bat` as administrator
   - Maven
   - Tomcat
 - Atom
+- Audacity
+- Auslogics Disk Defrag
 - Battle.net
   - Hearthstone
   - Overwatch
 - Cheat Engine
 - Discord
 - Driver Booster
+- Etcher
 - File Shredder
 - FileZilla
 - Firefox
 - Foxit Reader
 - GeForce Experience
-- GIMP
 - Git
 - GitKraken
 - Google Chrome
@@ -39,8 +41,8 @@ Run `.\Win10\_run.bat` as administrator
 - JDownloader
 - JetBrains
   - Intellij Ultimate
+  - PhpStorm
   - PyCharm
-  - WebStorm
 - League of Legends
 - Logitech Options
 - Malwarebytes
@@ -48,10 +50,10 @@ Run `.\Win10\_run.bat` as administrator
 - Microsoft Office
 - Mp3tag
 - Node.js
+- NordVPN
 - Notepad++
 - Player.me
 - Postman
-- Private Internet Access
 - PuTTY
 - Python 3
 - qBittorrent
@@ -62,6 +64,7 @@ Run `.\Win10\_run.bat` as administrator
 - Resilio Sync
 - Skype
 - Spotify
+- StarUML
 - Steam
   - Chaos Reborn
   - Doki Doki Literature Club!
@@ -72,14 +75,13 @@ Run `.\Win10\_run.bat` as administrator
   - Slay the Spire
   - Swords & Soldiers
   - The Binding of Isaac: Rebirth
-  - XCOM 2
 - Synergy
 - TeamViewer
 - Telegram
-- Tor Browser
 - Vivaldi
 - VLC media player
 - WhatsApp
+- Win32 Disk Imager
 - WinDirStat
 - WinPcap
 - WinRAR
