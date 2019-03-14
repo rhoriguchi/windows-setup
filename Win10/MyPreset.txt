@@ -92,7 +92,7 @@ DisableThumbsDB
 # EnableNumlock / DisableNumlock
 
 ### Application Tweaks ###
-UninstallOneDrive
+#UninstallOneDrive
 UninstallMsftBloat
 UninstallThirdPartyBloat
 # UninstallWindowsStore / InstallWindowsStore
