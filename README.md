@@ -23,6 +23,7 @@ Run `.\Win10\_run.bat` as administrator
 - balenaEtcher
 - Cheat Engine
 - Discord
+- Docker Desktop
 - Driver Booster
 - File Shredder
 - FileZilla
