@@ -27,7 +27,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
   - Designer
   - Photo
 - Apache
-  - Maven
   - Tomcat
 - Atom
 - Audacity
@@ -38,7 +37,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - balenaEtcher
 - Cheat Engine
 - Discord
-- Docker Desktop
 - Driver Booster
 - File Shredder
 - FileZilla
@@ -51,7 +49,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Hearthstone Deck Tracker
 - Hyper.js
 - Inkscape
-- IObit Uninstaller
 - IObit Uninstaller
 - JDownloader
 - JetBrains
