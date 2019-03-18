@@ -50,7 +50,6 @@ Run `.\Win10\_run.bat` as administrator
 - MEGASync
 - Microsoft Office
 - Mp3tag
-- Node.js
 - NordVPN
 - Notepad++
 - Player.me
