@@ -52,7 +52,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Hyper.js
 - Inkscape
 - IObit Uninstaller
-- Java JDK 11
+- IObit Uninstaller
 - JDownloader
 - JetBrains
   - Intellij Ultimate
@@ -69,7 +69,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Player.me
 - Postman
 - PuTTY
-- Python 3
 - qBittorrent
 - Razer
   - Cortex
