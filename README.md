@@ -21,7 +21,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 
 ## Manual installation
 
-- .NET Core
 - Acronis True Image 2019
 - Allway Sync
 - Affinity
@@ -46,7 +45,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Firefox
 - Foxit Reader
 - GeForce Experience
-- Git
 - GitKraken
 - Google Chrome
 - HandBrake
