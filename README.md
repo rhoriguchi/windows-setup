@@ -21,8 +21,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 
 ## Manual installation
 
-## Programmes
-
 - .NET Core
 - Acronis True Image 2019
 - Allway Sync
@@ -108,3 +106,4 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 ## Microsoft Store
 - MALClient
 - Your Phone
+- Ubuntu
