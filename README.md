@@ -37,7 +37,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - balenaEtcher
 - Cheat Engine
 - Discord
-- Driver Booster
 - File Shredder
 - FileZilla
 - Firefox
@@ -49,7 +48,9 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Hearthstone Deck Tracker
 - Hyper.js
 - Inkscape
-- IObit Uninstaller
+- IObit 
+  - Uninstaller
+  - Driver Booster
 - JDownloader
 - JetBrains
   - Intellij Ultimate
