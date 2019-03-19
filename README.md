@@ -59,7 +59,11 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Logitech Options
 - Malwarebytes
 - MEGASync
-- Microsoft Office
+- Microsoft
+  - Excel
+  - Outlook
+  - PowerPoint
+  - Word
 - Mp3tag
 - NordVPN
 - Notepad++
