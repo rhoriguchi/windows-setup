@@ -48,7 +48,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Hearthstone Deck Tracker
 - Hyper.js
 - Inkscape
-- IObit 
+- IObit
   - Uninstaller
   - Driver Booster
 - JDownloader
