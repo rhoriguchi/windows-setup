@@ -1,21 +1,21 @@
 # Windows setup guide
 
 ## Win10
+
 Run `.\Win10\_run.bat` as administrator
 
 ## Chocolatey
 
 ### Install software
-Run on PowerShell as administrator
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-```
-Run `.\chocolatey.bat` as administrator
+
+Run `.\Chocolatey\_run.bat` as administrator
 
 ### Export installed software
+
 Run on PowerShell as administrator
+
 ```
-choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install " + $_ } | Out-File .\chocolatey.bat
+choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install -y " + $_ } | Out-File .\installed.ps1
 ```
 
 ## Manual installation
@@ -102,6 +102,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Wireshark
 
 ## Microsoft Store
+
 - MALClient
 - Your Phone
 - Ubuntu
