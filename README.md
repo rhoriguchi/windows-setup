@@ -9,7 +9,6 @@ Run `.\Win10\_run.bat` as administrator
 Run on PowerShell as administrator
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-choco feature enable -n allowGlobalConfirmation
 ```
 Run `.\chocolatey.bat` as administrator
 
