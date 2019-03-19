@@ -14,20 +14,20 @@ DisableWiFiSense                # EnableWiFiSense
 DisableSmartScreen              # EnableSmartScreen
 DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
-# DisableActivityHistory        EnableActivityHistory
-# DisableBackgroundApps         EnableBackgroundApps
+EnableActivityHistory           # DisableActivityHistory
+EnableBackgroundApps            # DisableBackgroundApps
 DisableLocationTracking         # EnableLocationTracking
 DisableMapUpdates               # EnableMapUpdates
 DisableFeedback                 # EnableFeedback
 DisableTailoredExperiences      # EnableTailoredExperiences
-# DisableAdvertisingID          EnableAdvertisingID
-# DisableWebLangList            EnableWebLangList
+EnableAdvertisingID             # DisableAdvertisingID
+EnableWebLangList               # DisableWebLangList
 DisableCortana                  # EnableCortana
 DisableErrorReporting           # EnableErrorReporting
 SetP2PUpdateLocal               # SetP2PUpdateInternet          # SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
-# HideRecentJumplists           ShowRecentJumplists
+ShowRecentJumplists             # HideRecentJumplists
 
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
@@ -40,9 +40,9 @@ DisableSMB1                     # EnableSMB1
 SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 SetUnknownNetworksPrivate       # SetUnknownNetworksPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
-# DisableFirewall               EnableFirewall
-# HideDefenderTrayIcon          ShowDefenderTrayIcon
-# DisableDefender               EnableDefender
+EnableFirewall                  # DisableFirewall
+ShowDefenderTrayIcon            # HideDefenderTrayIcon
+EnableDefender                  # DisableDefender
 DisableDefenderCloud            # EnableDefenderCloud
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
 # EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
@@ -67,66 +67,66 @@ DisableRemoteAssistance         # EnableRemoteAssistance
 EnableRemoteDesktop             # DisableRemoteDesktop
 DisableAutoplay                 # EnableAutoplay
 DisableAutorun                  # EnableAutorun
-# DisableRestorePoints          EnableRestorePoints
+EnableRestorePoints             # DisableRestorePoints
 EnableStorageSense              # DisableStorageSense
-# DisableDefragmentation        EnableDefragmentation
+EnableDefragmentation           # DisableDefragmentation
 # DisableSuperfetch             # EnableSuperfetch
-# DisableIndexing               EnableIndexing
+EnableIndexing                  # DisableIndexing
 # DisableNTFSLastAccess         # EnableNTFSLastAccess
-# SetBIOSTimeUTC                SetBIOSTimeLocal
+SetBIOSTimeLocal                # SetBIOSTimeUTC
 EnableHibernation               # DisableHibernation
-# DisableSleepButton            EnableSleepButton
-# DisableSleepTimeout           EnableSleepTimeout
-# DisableFastStartup            EnableFastStartup
+EnableSleepButton               # DisableSleepButton
+EnableSleepTimeout              # DisableSleepTimeout
+EnableFastStartup               # DisableFastStartup
 # DisableAutoRebootOnCrash      # EnableAutoRebootOnCrash
 
-### UI Tweaks ### TODO
+### UI Tweaks ###
 DisableActionCenter             # EnableActionCenter
-DisableLockScreen               # EnableLockScreen
+EnableLockScreen                # DisableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
 HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
-# DisableAeroShake              # EnableAeroShake
+DisableAeroShake                # EnableAeroShake
 DisableStickyKeys               # EnableStickyKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
 ShowFileOperationsDetails       # HideFileOperationsDetails
-# EnableFileDeleteConfirm       # DisableFileDeleteConfirm
+EnableFileDeleteConfirm         # DisableFileDeleteConfirm
 HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
 HideTaskView                    # ShowTaskView
-ShowSmallTaskbarIcons           # ShowLargeTaskbarIcons
-SetTaskbarCombineWhenFull       # SetTaskbarCombineNever        # SetTaskbarCombineAlways
+ShowLargeTaskbarIcons           # ShowSmallTaskbarIcons
+SetTaskbarCombineAlways         # SetTaskbarCombineNever        # SetTaskbarCombineWhenFull
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
-ShowTrayIcons                   # HideTrayIcons
+HideTrayIcons                   # ShowTrayIcons                   
 DisableSearchAppInStore         # EnableSearchAppInStore
-DisableNewAppPrompt             # EnableNewAppPrompt
-# HideRecentlyAddedApps         # ShowRecentlyAddedApps
+EnableNewAppPrompt              # DisableNewAppPrompt
+ShowRecentlyAddedApps           # HideRecentlyAddedApps
 # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
-# HideShortcutArrow             # ShowShortcutArrow
-SetVisualFXPerformance          # SetVisualFXAppearance
-# EnableTitleBarColor           # DisableTitleBarColor
-# EnableDarkTheme               # DisableDarkTheme
+ShowShortcutArrow               # HideShortcutArrow
+SetVisualFXAppearance           # SetVisualFXPerformance
+EnableTitleBarColor             # DisableTitleBarColor
+DisableDarkTheme                # EnableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
 # SetSoundSchemeNone            # SetSoundSchemeDefault
 # DisableStartupSound           # EnableStartupSound
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
 
-### Explorer UI Tweaks ### TODO
+### Explorer UI Tweaks ###
 ShowKnownExtensions             # HideKnownExtensions
 ShowHiddenFiles                 # HideHiddenFiles
 EnableNavPaneExpand             # DisableNavPaneExpand
 # EnableFldrSeparateProcess     # DisableFldrSeparateProcess
 # EnableRestoreFldrWindows      # DisableRestoreFldrWindows
-# DisableSharingWizard          # EnableSharingWizard
-# HideSelectCheckboxes          # ShowSelectCheckboxes
+DisableSharingWizard            # EnableSharingWizard
+HideSelectCheckboxes            # ShowSelectCheckboxes
 HideSyncNotifications           # ShowSyncNotifications
-HideRecentShortcuts             # ShowRecentShortcuts
+ShowRecentShortcuts             # HideRecentShortcuts
 SetExplorerThisPC               # SetExplorerQuickAccess
-HideQuickAccess                 # ShowQuickAccess
-ShowThisPCOnDesktop             # HideThisPCFromDesktop
-# ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
-# ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
+ShowQuickAccess                 # HideQuickAccess
+HideThisPCFromDesktop           # ShowThisPCOnDesktop
+HideUserFolderFromDesktop       # ShowUserFolderOnDesktop
+HideControlPanelFromDesktop     # ShowControlPanelOnDesktop
 HideDesktopFromThisPC           # ShowDesktopInThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
 HideDocumentsFromThisPC         # ShowDocumentsInThisPC
@@ -144,35 +144,35 @@ Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
 # HideGiveAccessToMenu          # ShowGiveAccessToMenu
 # HideShareMenu                 # ShowShareMenu
-# DisableThumbnails             # EnableThumbnails
+EnableThumbnails                # DisableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
-### Application Tweaks ### TODO
-DisableOneDrive                 # EnableOneDrive
-UninstallOneDrive               # InstallOneDrive
+### Application Tweaks ###
+EnableOneDrive                  # DisableOneDrive
+# InstallOneDrive               # UninstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
-# UninstallWindowsStore         # InstallWindowsStore
+InstallWindowsStore             # UninstallWindowsStore
 DisableXboxFeatures             # EnableXboxFeatures
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
 DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
-# UninstallMediaPlayer          # InstallMediaPlayer
-# UninstallInternetExplorer     # InstallInternetExplorer
+InstallMediaPlayer              # UninstallMediaPlayer
+InstallInternetExplorer         # UninstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
-# InstallLinuxSubsystem         # UninstallLinuxSubsystem
+InstallLinuxSubsystem           # UninstallLinuxSubsystem
 # InstallHyperV                 # UninstallHyperV
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
-# UninstallPDFPrinter           # InstallPDFPrinter
+UninstallPDFPrinter             # InstallPDFPrinter
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
-# UninstallFaxAndScan           # InstallFaxAndScan
+UninstallFaxAndScan             # InstallFaxAndScan
 
-### Server Specific Tweaks ### TODO
+### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
 # DisableShutdownTracker        # EnableShutdownTracker
 # DisablePasswordPolicy         # EnablePasswordPolicy
@@ -180,10 +180,10 @@ RemoveFaxPrinter                # AddFaxPrinter
 # DisableIEEnhancedSecurity     # EnableIEEnhancedSecurity
 # EnableAudio                   # DisableAudio
 
-### Unpinning ### TODO
-# UnpinStartMenuTiles
+### Unpinning ###
+UnpinStartMenuTiles
 # UnpinTaskbarIcons
 
-### Auxiliary Functions ### TODO
+### Auxiliary Functions ###
 WaitForKey
 Restart
