@@ -78,6 +78,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
   - Synapse
 - Resilio Sync
 - Skype
+- Slack
 - Spotify
 - StarUML
 - Steam
