@@ -41,7 +41,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - FileZilla
 - Firefox
 - Foxit Reader
-- GeForce Experience
 - GitKraken
 - Google Chrome
 - HandBrake
