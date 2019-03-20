@@ -36,6 +36,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - balenaEtcher
 - Cheat Engine
 - Discord
+- Docker Desktop
 - File Shredder
 - FileZilla
 - Firefox

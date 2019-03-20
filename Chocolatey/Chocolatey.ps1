@@ -5,7 +5,6 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install -y docker-desktop
 choco install -y dotnetcore-sdk
 choco install -y git.install
 choco install -y jdk11
