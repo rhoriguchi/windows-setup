@@ -81,7 +81,7 @@ EnableFastStartup               # DisableFastStartup
 # DisableAutoRebootOnCrash      # EnableAutoRebootOnCrash
 
 ### UI Tweaks ###
-DisableActionCenter             # EnableActionCenter
+EnableActionCenter              # DisableActionCenter
 EnableLockScreen                # DisableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
@@ -96,7 +96,7 @@ HideTaskView                    # ShowTaskView
 ShowLargeTaskbarIcons           # ShowSmallTaskbarIcons
 SetTaskbarCombineAlways         # SetTaskbarCombineNever        # SetTaskbarCombineWhenFull
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
-HideTrayIcons                   # ShowTrayIcons                   
+HideTrayIcons                   # ShowTrayIcons
 DisableSearchAppInStore         # EnableSearchAppInStore
 EnableNewAppPrompt              # DisableNewAppPrompt
 ShowRecentlyAddedApps           # HideRecentlyAddedApps
