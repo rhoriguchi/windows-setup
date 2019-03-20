@@ -92,6 +92,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
   - Swords & Soldiers
   - The Binding of Isaac: Rebirth
 - Synergy
+- TeamSpeak
 - TeamViewer
 - Telegram
 - Vivaldi
