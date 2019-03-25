@@ -37,6 +37,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Cheat Engine
 - Discord
 - Docker Desktop
+- Epic Games
 - File Shredder
 - FileZilla
 - Firefox
