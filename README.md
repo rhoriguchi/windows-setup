@@ -4,6 +4,7 @@
 
 Run `.\Win10\_run.bat` as administrator
 
+
 ## Chocolatey
 
 ### Install software
@@ -79,6 +80,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Resilio Sync
 - Skype
 - Slack
+- Snagit 2019
 - Spotify
 - StarUML
 - Steam
