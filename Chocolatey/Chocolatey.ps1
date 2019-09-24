@@ -9,6 +9,7 @@ choco install -y composer
 choco install -y git.install
 choco install -y jdk11
 choco install -y maven
+choco install -y miktex
 choco install -y nodejs.install
 choco install -y python3
 
