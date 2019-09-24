@@ -12,6 +12,7 @@ choco install -y maven
 choco install -y miktex
 choco install -y nodejs.install
 choco install -y python3
+choco install -y strawberryperl
 
 Write-Output "`nPress any key to continue..."
 [Console]::ReadKey($true) | Out-Null
