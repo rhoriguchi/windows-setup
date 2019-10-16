@@ -36,7 +36,6 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
   - Overwatch
 - balenaEtcher
 - Cheat Engine
-- Discord
 - Docker Desktop
 - Epic Games
   - Phoenix Point
@@ -79,8 +78,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
   - Surround
   - Synapse
 - Resilio Sync
-- Skype
-- Slack
+- Shift
 - Snagit 2019
 - Spotify
 - StarUML
@@ -97,10 +95,8 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Synergy
 - TeamSpeak
 - TeamViewer
-- Telegram
 - Vivaldi
 - VLC media player
-- WhatsApp
 - Win32 Disk Imager
 - WinDirStat
 - WinPcap
