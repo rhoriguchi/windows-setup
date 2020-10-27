@@ -4,7 +4,6 @@
 
 Run `.\Win10\_run.bat` as administrator
 
-
 ## Chocolatey
 
 ### Install software
@@ -15,7 +14,7 @@ Run `.\Chocolatey\_run.bat` as administrator
 
 Run on PowerShell as administrator
 
-```
+```bash
 choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco install -y " + $_ } | Out-File .\installed.ps1
 ```
 
@@ -67,10 +66,10 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
   - PowerPoint
   - Word
 - Mp3tag
-- NordVPN
 - Notepad++
 - Player.me
 - Postman
+- ProtonVPN
 - PuTTY
 - qBittorrent
 - Razer
