@@ -79,6 +79,7 @@ choco list -lo -r -y | % { $_.Split('|') | select -First 1 } | % { "choco instal
 - Resilio Sync
 - Shift
 - Snagit 2019
+- Signal
 - Spotify
 - StarUML
 - Steam
